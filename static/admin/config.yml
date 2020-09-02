@@ -1,0 +1,22 @@
+backend:
+  name: github
+  repo: opera7133/acto-hugo # GitHubのリポジトリ　「https://github.com/」の後ろの部分
+  branch: master
+
+media_folder: "static/img" # Folder where user uploaded files should go
+public_folder: "/img"
+
+collections: # A list of collections the CMS should be able to edit
+  - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "記事" # Used in the UI, ie.: "New Post"
+    folder: "content/post" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      - {label: "タイトル", name: "title", widget: "string"}
+      - {label: "投稿日時", name: "date", widget: "datetime"}
+      - {label: "画像", name: "image", widget: "image", required: false}
+      - {label: "タグ", name: "tags", widget: "list", required: false}
+      - {label: "カテゴリー", name: "categories", widget: "list", required: false}
+      - {label: "ドラフト", name: "draft", widget: "boolean", required: false}
+      - {label: "アーカイブ", name: "archives", widget: "list"}
+      - {label: "本文", name: "body", widget: "markdown"}
