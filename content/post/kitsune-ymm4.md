@@ -15,7 +15,7 @@ YMM4が単体出力できることを知って、最近はそっちを使うよ�
 ### ダウンロード
 
 動作の保証はしません。\
-[YMM4Chara.zip](https://dl.accessto.net/dl/software/YMM4Chara.zip)
+[YMM4Chara.zip](https://dl.wmsci.com/dl/software/YMM4Chara.zip)
 
 
 
