@@ -210,7 +210,7 @@ GUIにしました。\
 
 ### ダウンロード
 
-[Hugo-Updater.zip](https://dl.accessto.net/dl/software/Hugo-Updater.zip)
+[Hugo-Updater.zip](https://dl.wmsci.com/dl/software/Hugo-Updater.zip)
 
 もしくはミラー(Dropbox)から\
 <https://www.dropbox.com/s/8dgtiy9642rjb9z/Hugo-Updater.zip?dl=0>
