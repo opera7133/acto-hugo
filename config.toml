@@ -39,6 +39,12 @@ paginator_pages = "5"
     url = "/contact/"
     weight = 3
 
+  [[menu.foot]]
+    identifier = "privacy"
+    name = "プライバシーポリシー"
+    url = "/privacy/"
+    weight = 1
+
 [taxonomies]
 category = "categories"
 tag = "tags"
