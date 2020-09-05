@@ -14,7 +14,7 @@ hasCJKLanguage = true
 googleAnalytics = "UA-111958560-24"
 
 # Disqus Comment System
-#disqusShortname = ""
+#disqusShortname = "acto"
 
 [params]
 paginator_pages = "5"
