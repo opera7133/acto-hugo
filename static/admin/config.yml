@@ -24,3 +24,16 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "ドラフト", name: "draft", widget: "boolean", required: false}
       - {label: "アーカイブ", name: "archives", widget: "list"}
       - {label: "本文", name: "body", widget: "markdown"}
+  - name: "page" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "ページ" # Used in the UI, ie.: "New Post"
+    folder: "content" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: '{{fields.slug}}'
+    identifier_field: title
+    fields: # The fields each document in this collection have
+      - {label: "タイトル", name: "title", widget: "string"}
+      - {label: "スラッグ", name: "slug", widget: "string"}
+      - {label: "投稿日時", name: "date", widget: "datetime"}
+      - {label: "投稿者", name: "author", widget: "string"}
+      - {label: "ドラフト", name: "draft", widget: "boolean", required: false}
+      - {label: "本文", name: "body", widget: "markdown"}
