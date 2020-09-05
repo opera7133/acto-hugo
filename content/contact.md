@@ -7,7 +7,7 @@ author = "wamo"
 
 {{< rawhtml >}}
 <div class="content"><p>要望やご意見などがありましたら、TelegramかTwitter、もしくは以下のフォームからお願いします。</p>
-<form name='contact' method='post' action="https://formspree.io/">
+<form name='contact' method='post' action="https://formspree.io/xpzyegzq">
     <div class="cp_iptxt">
         <input type="text" placeholder="お名前 (必須)" name="name" required>
     </div>
