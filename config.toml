@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://wmsci.com"
 title = "Acto"
 author = "wamo"
 languageCode = "ja"
